@@ -5,8 +5,10 @@ https://ps3addict.github.io/autohen
 
 Currently available for HFW 4.84 to 4.90
 
-4.90 version install HEN 320
+4.90 version installs HEN 3.2.0
+
 4.89 versions installs HEN 3.1.1
+
 4.84 to 4.88 versions install HEN 3.0.3
 
 Original versions and 4.90 update by lmn7
