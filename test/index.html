@@ -319,10 +319,10 @@ function initROP(init)
 		+syscall(0x32E,base_file_addr,0,0,0,0,0,0,0)
 
 		// Must be changed depending on external stack frame (HEN only)
-		+syscall(0x32C,hen_renamedir_addr1,0x8a000000+0x1C25A44,0,0,0,0,0,0) // /dev_blind/hen
-		+syscall(0x32C,hen_renamedir_addr2,0x8a000000+0x1C25A77,0,0,0,0,0,0) // /dev_blind/hen/xml
-		+syscall(0x32C,hen_renamedir_addr3,0x8a000000+0x1C25A62,0,0,0,0,0,0) // /dev_blind/hen/remap
-		+syscall(0x32C,hen_renamedir_addr4,0x8a000000+0x1C25A8A,0,0,0,0,0,0) // /dev_blind/hen/remap/xml
+		+syscall(0x32C,hen_renamedir_addr1,0x8a000000+0x13186B7,0,0,0,0,0,0) // /dev_blind/hen
+		+syscall(0x32C,hen_renamedir_addr2,0x8a000000+0x13186EA,0,0,0,0,0,0) // /dev_blind/hen/xml
+		+syscall(0x32C,hen_renamedir_addr3,0x8a000000+0x13186D5,0,0,0,0,0,0) // /dev_blind/hen/remap
+		+syscall(0x32C,hen_renamedir_addr4,0x8a000000+0x13186FD,0,0,0,0,0,0) // /dev_blind/hen/remap/xml
 
 		+stack_frame_swap(0x8a000000+sf_swap_addr)
 		+stack_frame_exit();
